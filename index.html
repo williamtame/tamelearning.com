@@ -1,73 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>CSS Website Layout</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>background</title>
-    <body style="background-color:rgb(25, 123, 202)">
-    </body>
-    
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>William Tame</title>
 </head>
+
 <body>
+  <div class="header">
+    <h1>William Tame Art and Illustration</h1>
+    <p>WELCOME</p>
+  </div>
+</body>
 
-<div class="header">
-  <h1>Tame Learning</h1>
-  <p>WELCOME</p>
-</div>
-
+<body>
 <div class="topnav">
-  <a href="#">Link 1</a>
-  <a href="#">Link 2</a>
-  <a href="#">Link 3</a>
-  <a href="#">Link 4</a>
-  <a href="#">Link 5</a>
+  <a href="index.html">Home</a>
+  <a href="castles.html">Castles</a>
+  <a href="animals.html">Animals</a>
+  <a href="portraits.html">Portraits</a>
+  <a href="vector.html">Vector</a>
+  <a href="editorial.html">Editorial</a>
+  <a href="Q&A.html">Q&A</a>
 </div>
-
-<div class="row">
-  <div class="column">
-    <h2>Toolkit</h2>
-    <p>We implement global strategies to ensure that language learners are supported in accessing the curriculum throughout their language-learning journey.</p>
-  </div>
-  
-  <div class="column">
-    <h2>Target Language</h2>
-    <p>Guide differentiation in the classroom and display which language steps to focus on. Define language learners. This covers a broad spectrum, from children who are just beginning their English Language Learning journey, to children for whom the second language English is so proficient.</p>
-  </div>
-  
-  <div class="column">
-    <h2>Global Strategies</h2>
-    <p>A cross-curricular tool which helps practitioners observe, document, and accelerate the ways students learn in school. Measure the language development stages in speaking, listening, reading and writing.</p>
-  </div>
-</div>
-
-<p style="color: #000000; font-weight: bolder; text-align: center; font-size: larger;">
-  <strong>This website is under construction!</strong>
-</p>
+</body>
 
 <body>
-  <div style="
-    margin-top: 20px;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 20px;
-    row-gap: 20px;
-    object-fit: cover;
-    " class="new-grid">
-    <div style="background-color: #95ccff; height: 107px; text-align: center;" ></div>
-    <div style="background-color: #fff7ad; height: 107px; text-align: center;" ></div>
-    <div style="background-color: #95ccff; height: 107px; text-align: center;" ></div>
-    <div style="background-color: #fff7ad; height: 107px; text-align: center;" ></div>
-    <div style="background-color: #ffffff; height: 107px; text-align: center;" ></div>
-    <div style="background-color: #fff7ad; height: 107px; text-align: center;" ></div>
-    <div style="background-color: #95ccff; height: 107px; text-align: center;" ></div>
-    <div style="background-color: #fff7ad; height: 107px; text-align: center;" ></div>
-    <div style="background-color: #95ccff; height: 107px; text-align: center;" ></div>
+  <div class="construction">
+    <h2>This site is under construction... </h2>
+    <img src="page under construction 2.gif">
   </div>
 </body>
 
+<body>
+  <div class="williamtame">
+    <h2>Please visit my current site here. Thank you! </h2>
+    <a href="williamtame.com">williamtame.com</a>
+    <img src="page under construction 2.gif">
+  </div>
 </body>
+
+<body>
+<div class="site-images">
+  <img src="sample castle1.png">
+  <img src="sample bluedog.png">
+  <img src="sample portraitj.png">
+  <img src="sample housesnow.png">
+  <img src="sample thermometer.png">
+  <img src="sample abstract1.png">
+</div>
 
 </body>
 <p class="henryvideo" style="font-weight: bold;">
@@ -76,22 +56,52 @@
 </p>
 </body>
 
+<body style="background-color:rgb(25, 123, 202)">
+</body>
+
+</body>
+</html>
+
 <style>
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-  }
-  
+
   .header {
     background-color: #f1f1f1;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: large;
   }
 
+  .construction{
+  text-align: center;
+  font-weight: bold;
+}
+
+.construction img{
+  text-align: center;
+  height: 100px;
+  width: auto;
+}
+
+  .site-images {
+    width: 70%;
+    margin: 50px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 60px;
+  }
+  
+  .site-images img{
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .site-images img:hover{
+    transform: scale(1.2);
+    border-radius: 10px;
+    box-shadow: 0 32px 75px rgba(red, green, blue, alpha);
+  }
+  
   .topnav {
     overflow: hidden;
     background-color: #333;
@@ -110,54 +120,9 @@
     background-color: #ddd;
     color: black;
   }
-  
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 15px;
-  }
-  
-  .row::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  @media screen and (max-width:600px) {
-    .column {
-      width: 100%;
-    }
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .new-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  
-  img {
-      border-radius: 8px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 28%;
-      margin-bottom: 10px;
-  }
 
   .henryvideo {
   text-align: center;
   }
 
-  .unlock {
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  }
-
-  
   </style>
-
-</html>
