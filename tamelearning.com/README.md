@@ -1,1 +1,0 @@
-# tamelearning.com
