@@ -3,8 +3,8 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     }
-
-  .header {
+    
+.header {
     background-color: #f1f1f1;
     padding: 15px;
     text-align: center;
@@ -12,7 +12,7 @@
     font-size: large;
   }
 
-.construction{
+  .construction{
   text-align: center;
   font-weight: bold;
 }
@@ -21,12 +21,8 @@
   text-align: center;
   height: 100px;
   width: auto;
-  padding: 10px;
 }
 
-.williamtame{
-text-align: center;
-}
   .site-images {
     width: 70%;
     margin: 50px auto 50px;
@@ -56,7 +52,7 @@ text-align: center;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 16px;
     text-decoration: none;
   }
   
@@ -65,7 +61,46 @@ text-align: center;
     color: black;
   }
 
-  .henryvideo {
-  text-align: center;
-  }
+  /* styles.css */
+
+.liveart-button {
+  display: inline-block;
+  padding: 14px 30px;
+  background-color: #b50600;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.eal-button {
+  display: inline-block;
+  padding: 14px 30px;
+  background-color: #055e27;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.linkedin-button {
+  display: inline-block;
+  padding: 14px 30px;
+  background-color: #0077B5; /* LinkedIn blue color */
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.linkedin-button:hover {
+  background-color: #005F8E; /* Darker shade for hover effect */
+}
 
