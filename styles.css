@@ -52,7 +52,6 @@
   .topnav {
     overflow: hidden;
     background-color: #333;
-    margin: auto;
   }
   
   .topnav a {
@@ -62,6 +61,7 @@
     text-align: center;
     padding: 15px 16px;
     text-decoration: none;
+    margin: auto;
   }
   
   .topnav a:hover {
