@@ -19,6 +19,7 @@
 
   .suitimage-container {
     position: relative;
+    padding: 20px;
   }
   
   .suitimage-container img {
