@@ -16,6 +16,37 @@
     margin-right: auto;
   }
 
+
+  .suitimage-container {
+    position: relative;
+  }
+  
+  .suitimage-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .suittext-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+  /* Optional: Style the text further if needed */
+  .suittext-overlay h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .suittext-overlay p {
+    font-size: 16px;
+    margin: 0;
+  }
+
+
   .construction{
   text-align: center;
   font-weight: bold;
