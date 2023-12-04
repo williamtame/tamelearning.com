@@ -7,10 +7,13 @@
 .header {
     background-color: #f1f1f1;
     padding: 60px;
-    margin-left: 100px;
     text-align: left;
     font-weight: bolder;
     font-size: large;
+    justify-content: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .construction{
