@@ -19,10 +19,11 @@
 
   .suitimage-container {
     position: relative;
+    padding-top: 20px;
   }
   
   .suitimage-container img {
-    width: 100%;
+    width: 70%;
     height: auto;
   }
   
@@ -63,7 +64,7 @@
     font-size: 16px;
     margin: 0;
   }
-  
+
 
   .construction{
   text-align: center;
