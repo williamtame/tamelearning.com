@@ -19,11 +19,10 @@
 
   .suitimage-container {
     position: relative;
-    padding-top: 20px;
   }
   
   .suitimage-container img {
-    width: 70%;
+    width: 100%;
     height: auto;
   }
   
@@ -36,38 +35,19 @@
     text-align: center;
   }
   
-  .speech-bubble {
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
-    padding: 20px;
-    border-radius: 10px;
-    position: relative;
-    left: -200px;
-    top: 10px;
-  }
-  
-  .speech-bubble:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: -50px;
-    border-width: 15px 0 15px 15px;
-    border-style: solid:
-    border-color: rgba(0, 0, 0, 0.7) transparent transparent transparent;
-    transform: translateX(-50%);
-  }
-  
   /* Optional: Style the text further if needed */
-  .speech-bubble h2 {
+  .suittext-overlay h2 {
     font-size: 24px;
     margin-bottom: 10px;
   }
   
-  .speech-bubble p {
+  .suittext-overlay p {
     font-size: 16px;
     margin: 0;
   }
 
 
+  
   .construction{
   text-align: center;
   font-weight: bold;
