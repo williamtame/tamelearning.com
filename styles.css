@@ -35,17 +35,35 @@
     text-align: center;
   }
   
+  .speech-bubble {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .speech-bubble:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.7) transparent transparent transparent;
+    transform: translateX(-50%);
+  }
+  
   /* Optional: Style the text further if needed */
-  .suittext-overlay h2 {
+  .speech-bubble h2 {
     font-size: 24px;
     margin-bottom: 10px;
   }
   
-  .suittext-overlay p {
+  .speech-bubble p {
     font-size: 16px;
     margin: 0;
   }
-
+  
 
   .construction{
   text-align: center;
