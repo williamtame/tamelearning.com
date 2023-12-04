@@ -61,6 +61,7 @@
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 18px;
   }
   
   .topnav a {
@@ -73,8 +74,8 @@
   }
   
   .topnav a:hover {
-    background-color: rgb(221, 221, 221)000;
-    color: rgb(35, 44, 126);
+    background-color: rgb(104, 104, 104)000;
+    color: rgb(0, 26, 255);
   }
 
   /* styles.css */
@@ -84,7 +85,7 @@
   padding: 14px 30px;
   background-color: #b50600;
   color: white;
-  font-size: 14px;
+  font-size: 18px;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
@@ -94,7 +95,7 @@
   padding: 14px 30px;
   background-color: #055e27;
   color: white;
-  font-size: 14px;
+  font-size: 18px;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
@@ -111,12 +112,12 @@
   padding: 14px 30px;
   background-color: #0077B5; /* LinkedIn blue color */
   color: white;
-  font-size: 14px;
+  font-size: 18px;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
 .linkedin-button:hover {
-  background-color: #005F8E; /* Darker shade for hover effect */
+  background-color: #02d6d6; /* Darker shade for hover effect */
 }
 
