@@ -92,6 +92,10 @@
     transition: background-color 0.3s ease;
   }
 
+  .home-button:hover {
+    background-color: #ac75df; /* Darker shade for hover effect */
+  }
+
   .tameart {
     display: inline-block;
     padding: 14px 30px;
@@ -100,6 +104,10 @@
     font-size: 18px;
     text-decoration: none;
     transition: background-color 0.3s ease;
+  }
+
+  .tameart-button:hover {
+    background-color: #dcdfb0; /* Darker shade for hover effect */
   }
 
 .liveart-button {
@@ -112,21 +120,8 @@
   transition: background-color 0.3s ease;
 }
 
-.eal-button {
-  display: inline-block;
-  padding: 14px 30px;
-  background-color: #055e27;
-  color: white;
-  font-size: 18px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+.liveart-button:hover {
+  background-color: #d67302; /* Darker shade for hover effect */
 }
 
 .linkedin-button {
@@ -142,4 +137,26 @@
 .linkedin-button:hover {
   background-color: #02d6d6; /* Darker shade for hover effect */
 }
+
+.eal-button {
+  display: inline-block;
+  padding: 14px 30px;
+  background-color: #055e27;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.eal-button:hover {
+  background-color: rgb(2, 214, 55); /* Darker shade for hover effect */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 
