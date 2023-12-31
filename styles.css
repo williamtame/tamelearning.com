@@ -6,10 +6,10 @@
     
 .header {
     background-color: #ffffff;
-    padding: 40px;
+    padding: 20px;
     text-align: left;
     font-weight: bolder;
-    font-size: large;
+    font-size:x-large;
     justify-content: center;
     width: 70%;
     margin-left: auto;
@@ -20,7 +20,7 @@
     width: 100%;
     height: auto;
     display: block;
-    padding-top: 10px;
+    padding-top: 50px;
     padding-bottom: 10px;
   }
 
