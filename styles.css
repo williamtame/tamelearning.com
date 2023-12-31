@@ -19,9 +19,7 @@
 
   .tamepuppet1 {
     width: 100%;
-    height: auto;
-    display: block;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 10px;
   }
 
@@ -91,7 +89,7 @@
   }
 
   .tamepuppet2 img{
-    width: 38%;
+    width: 37.6%;
   }
 
   .site-images2 {
@@ -119,11 +117,11 @@
 
   .tamepuppet3 {
     width: 80%;
-    text-align: right;
+    margin-right: 20%;
   }
 
   .tamepuppet3 img{
-    width: 38%;
+    width: 37.6%;
   }
 
   
