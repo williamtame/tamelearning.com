@@ -27,7 +27,7 @@
 
 .text-box {
   position: absolute;
-  top: 300px; /* Adjust the top position as needed */
+  top: 400px; /* Adjust the top position as needed */
   left: 200px; /* Adjust the left position as needed */
   background-color: white;
   padding: 20px;
@@ -42,7 +42,7 @@
 .text-box2 {
   position: absolute;
   padding-top: 20px;
-  top: 400px; /* Adjust the top position as needed */
+  top: 500px; /* Adjust the top position as needed */
   left: 200px; /* Adjust the left position as needed */
   color: #012e46;
   width: 80%;
@@ -91,7 +91,7 @@
   }
 
   .tamepuppet2 img{
-    width: 40%;
+    width: 38%;
   }
 
   .site-images2 {
@@ -115,6 +115,15 @@
     transform: scale(1.2);
     border-radius: 10px;
     box-shadow: 0 32px 75px rgba(red, green, blue, alpha);
+  }
+
+  .tamepuppet3 {
+    width: 80%;
+    text-align: right;
+  }
+
+  .tamepuppet3 img{
+    width: 38%;
   }
 
   
