@@ -34,11 +34,22 @@
   color: black;
   width: 80%;
   width: 300px;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   border: 1px solid black;
 }
 
+.text-box2 {
+  position: absolute;
+  padding-top: 20px;
+  top: 400px; /* Adjust the top position as needed */
+  left: 200px; /* Adjust the left position as needed */
+  color: #012e46;
+  width: 80%;
+  font-size: 40px;
+  font-weight:700;
+  text-align: left
+}
 
 
   .construction {
