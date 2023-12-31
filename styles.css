@@ -11,7 +11,7 @@
     font-weight: bolder;
     font-size:x-large;
     justify-content: center;
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -24,15 +24,14 @@
     padding-bottom: 10px;
   }
 
-.construction {
-  position: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+  .construction {
+    text-align: center;
+    height: 20px;
+  }
 
   .site-images {
-    width: 70%;
-    margin: 50px auto 50px;
+    width: 80%;
+    margin: 40px auto 40px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 60px;
