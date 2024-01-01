@@ -34,6 +34,7 @@
     width: 100%;
     padding-top: 20px;
     padding-bottom: 10px;
+    opacity: 0.4;
   }
 
 .text-box {
@@ -105,6 +106,16 @@
     width: 78.4%;
   }
 
+  .tamepuppet2text{
+    text-align: left;
+    margin-left: 125px;
+    font-size: x-large;
+    margin-top: 300px;
+    font-size: 40px;
+    font-weight:700;
+    color: #012e46;
+  }
+
   .tamepuppet3 {
     width: 80%;
     margin: 40px auto 40px;
@@ -115,6 +126,16 @@
 
   .tamepuppet3 img{
     width: 78.4%;
+  }
+
+  .tamepuppet3text{
+    text-align: left;
+    margin-left: 125px;
+    font-size: x-large;
+    margin-top: 300px;
+    font-size: 40px;
+    font-weight:700;
+    color: #012e46;
   }
 
   .site-images2 {
