@@ -4,6 +4,19 @@
     font-family: Arial, Helvetica, sans-serif;
     }
     
+    @media (max-width: 768px) {
+      /* Styles for screens up to 768 pixels wide (e.g., phones) */
+    }
+    
+    @media (min-width: 769px) and (max-width: 1200px) {
+      /* Styles for screens between 769 and 1200 pixels wide (e.g., tablets) */
+    }
+    
+    @media (min-width: 1201px) {
+      /* Styles for screens wider than 1200 pixels (e.g., desktops) */
+    }
+    
+
 .header {
     background-color: #ffffff;
     padding-top: 30px;
