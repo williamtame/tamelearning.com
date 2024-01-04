@@ -1,268 +1,87 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    @media (max-width: 768px) {
-      /* Styles for screens up to 768 pixels wide (e.g., phones) */
-    }
-    
-    @media (min-width: 769px) and (max-width: 1200px) {
-      /* Styles for screens between 769 and 1200 pixels wide (e.g., tablets) */
-    }
-    
-    @media (min-width: 1201px) {
-      /* Styles for screens wider than 1200 pixels (e.g., desktops) */
-    }
-    
-
-.header {
-    background-color: #ffffff;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    text-align: left;
-    font-weight: bolder;
-    font-size:x-large;
-    justify-content: center;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .tamepuppet1 {
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    opacity: 0.4;
-  }
-
-.text-box {
-  position: absolute;
-  top: 400px; /* Adjust the top position as needed */
-  left: 200px; /* Adjust the left position as needed */
-  background-color: white;
-  padding: 20px;
-  color: black;
-  width: 80%;
-  width: 300px;
-  font-size: 30px;
-  text-align: center;
-  border: 1px solid black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.text-box2 {
-  position: absolute;
-  padding-top: 20px;
-  top: 500px; /* Adjust the top position as needed */
-  left: 200px; /* Adjust the left position as needed */
-  color: #012e46;
-  width: 80%;
-  font-size: 40px;
-  font-weight:700;
-  text-align: left
-}
-
-
-  .construction {
-    text-align: center;
-    height: 20px;
-    color: #b50600;
-    padding-top: 10px;
-  }
-
-  .site-images {
-    width: 80%;
-    margin: 40px auto 40px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 60px;
-  }
-  
-  .site-images img{
-    width: 100%;
-    cursor: pointer;
-  }
-  
-  .site-images figcaption {
-    text-align: center;
-  }
-
-  .site-images img:hover{
-    transform: scale(1.2);
-    border-radius: 10px;
-    box-shadow: 0 32px 75px rgba(red, green, blue, alpha);
-  }
-
-  .tamepuppet2 {
-    width: 80%;
-    margin: 40px auto 40px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 60px;
-  }
-
-  .tamepuppet2 img{
-    width: 78.4%;
-  }
-
-  .tamepuppet2text{
-    text-align: left;
-    margin-left: 125px;
-    font-size: x-large;
-    margin-top: 300px;
-    font-size: 40px;
-    font-weight:700;
-    color: #012e46;
-  }
-
-  .tamepuppet3 {
-    width: 80%;
-    margin: 40px auto 40px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 60px;
-  }
-
-  .tamepuppet3 img{
-    width: 78.4%;
-  }
-
-  .tamepuppet3text{
-    text-align: left;
-    margin-left: 125px;
-    font-size: x-large;
-    margin-top: 300px;
-    font-size: 40px;
-    font-weight:700;
-    color: #012e46;
-  }
-
-  .site-images2 {
-    width: 80%;
-    margin: 40px auto 40px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 60px;
-  }
-  
-  .site-images2 img{
-    width: 100%;
-    cursor: pointer;
-  }
-  
-  .site-images2 figcaption {
-    text-align: center;
-  }
-
-  .site-images2 img:hover{
-    transform: scale(1.2);
-    border-radius: 10px;
-    box-shadow: 0 32px 75px rgba(red, green, blue, alpha);
-  }
-
-  .topnav {
-    overflow: hidden;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 18px;
-  }
-  
-  .topnav a {
-    float: left;
-    display: block;
-    color: #000000;
-    text-align: center;
-    padding: 5px 20px;
-    text-decoration: none;
-  }
-  
-  .topnav a:hover {
-    background-color: rgb(104, 104, 104)000;
-    color: rgb(0, 26, 255);
-  }
-
-  /* styles.css */
-
-  .home {
-    display: inline-block;
-    padding: 14px 30px;
-    background-color: #641ec0;
-    color: white;
-    font-size: 18px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-
-  .home-button:hover {
-    background-color: #bc9add; /* Darker shade for hover effect */
-  }
-
-  .tameart {
-    display: inline-block;
-    padding: 14px 30px;
-    background-color: #ffee00;
-    color: rgb(8, 8, 8);
-    font-size: 18px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-
-  .tameart-button:hover {
-    background-color: #dddfc4; /* Darker shade for hover effect */
-  }
-
-.liveart-button {
-  display: inline-block;
-  padding: 14px 30px;
-  background-color: #b50600;
-  color: white;
-  font-size: 18px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.liveart-button:hover {
-  background-color: #ce9315; /* Darker shade for hover effect */
-}
-
-.linkedin-button {
-  display: inline-block;
-  padding: 14px 30px;
-  background-color: #0077B5; /* LinkedIn blue color */
-  color: white;
-  font-size: 18px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.linkedin-button:hover {
-  background-color: #02d6d6; /* Darker shade for hover effect */
-}
-
-.eal-button {
-  display: inline-block;
-  padding: 14px 30px;
-  background-color: #055e27;
-  color: white;
-  font-size: 18px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.eal-button:hover {
-  background-color: rgb(2, 214, 55); /* Darker shade for hover effect */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.page-heading {
+  margin-top: 50px;
   text-align: center;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  color: #333;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr); /* Change to eight columns */
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.text-merge {
+  grid-column: span 6;
+}
+
+.image-item {
+  grid-column: span 2;
+}
+
+.image-item img {
+  width: 100%; /* Set the image width to 100% of its container */
+  max-width: 100%; /* Ensure the image doesn't exceed its original size */
+  height: auto; /* Maintain the aspect ratio */
 }
 
 
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+/* Add this CSS for the second grid-container with eight columns */
+.second-grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 20px;
+}
+
+/* Apply styles to the grid items within the second grid-container */
+.second-grid-container .grid-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Add additional styles as needed for the second grid items */
