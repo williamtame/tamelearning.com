@@ -29,15 +29,15 @@ body {
 }
 
 .grid-item {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   padding: 20px;
   text-align: center;
-  border: 1px solid #ddd;
 }
 
 .text-merge {
   grid-column: span 6;
   font-size: 36px;
+  font-weight: bolder;
   text-align: center;
   color: #125174;
 }
@@ -81,10 +81,9 @@ body {
 
 /* Apply styles to the grid items within the second grid-container */
 .second-grid-container .grid-item {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   padding: 20px;
   text-align: center;
-  border: 1px solid #ddd;
 }
 
 .image-cover img {
@@ -102,13 +101,14 @@ body {
   grid-column: 4 / span 5; /* Make the text grid item span columns 4 to 8 */
   grid-row: span 1; /* You can adjust the number of rows as needed */
   padding: 20px; /* Add padding for better aesthetics */
-  background-color: #f4f4f4; /* Example background color, customize as needed */
+  background-color: #ffffff; /* Example background color, customize as needed */
   text-align:center;
   margin: 15%;
 }
 
 .text-content h2 {
-  font-size: 36px; /* Example font size, customize as needed */
+  font-size: 36px;
+  font-weight: bolder;
   margin-bottom: 10px;
   color: #125174;
   margin-bottom: 20px;
