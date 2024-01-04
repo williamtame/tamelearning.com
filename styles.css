@@ -17,9 +17,9 @@ body {
 }
 
 .page-heading {
-  margin-top: 50px;
+  margin-top: 20px;
   text-align: center;
-  color: #333;
+  color: #000000;
 }
 
 .grid-container {
@@ -37,6 +37,9 @@ body {
 
 .text-merge {
   grid-column: span 6;
+  font-size: 36px;
+  text-align: center;
+  color: #125174;
 }
 
 .image-item {
@@ -82,6 +85,40 @@ body {
   padding: 20px;
   text-align: center;
   border: 1px solid #ddd;
+}
+
+.image-cover img {
+  width: 100%; /* Make the image fill the entire width of its container */
+  height: auto; /* Maintain the image's aspect ratio */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+.image-cover {
+  grid-column: span 3; /* Make the image grid item span three columns */
+  grid-row: span 1; /* Make the image grid item span two rows */
+}
+
+.text-content {
+  grid-column: 4 / span 5; /* Make the text grid item span columns 4 to 8 */
+  grid-row: span 1; /* You can adjust the number of rows as needed */
+  padding: 20px; /* Add padding for better aesthetics */
+  background-color: #f4f4f4; /* Example background color, customize as needed */
+  text-align:center;
+  margin: 15%;
+}
+
+.text-content h2 {
+  font-size: 36px; /* Example font size, customize as needed */
+  margin-bottom: 10px;
+  color: #125174;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 20px; /* Example font size, customize as needed */
+  color: #333; /* Example text color, customize as needed */
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 /* Add additional styles as needed for the second grid items */
