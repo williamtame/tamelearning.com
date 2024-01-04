@@ -17,9 +17,9 @@ body {
 }
 
 .page-heading {
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
-  color: #000000;
+  color: #ffffff;
 }
 
 .grid-container {
@@ -130,6 +130,7 @@ body {
   font-weight: bolder;
   color: #125174; /* Example text color, customize as needed */
   margin-bottom: 20px;
+  margin-top: 120px;
   text-align: center
   /* Additional styling if needed */
 }
@@ -163,4 +164,50 @@ body {
   transform: scale(1.2);
   border-radius: 10px;
   /* Add any additional styling for the hover effect */
+}
+
+/* Image spanning grid items 33 to 40 */
+.second-grid-container .spanned-image {
+  grid-column: span 8; /* Span across 8 columns */
+}
+
+.second-grid-container .spanned-image img {
+  width: 100%;
+  height: auto;
+  /* Add any additional styling as needed */
+}
+
+
+.bottomnavbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.bottomnavbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.bottomnavbar a:hover {
+  background-color: #555;
+}
+
+/* Add this CSS for the second grid-container with eight columns */
+.third-grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 20px;
+}
+
+/* Apply styles to the grid items within the second grid-container */
+.third-grid-container .grid-item {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
 }
