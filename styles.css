@@ -53,7 +53,6 @@ body {
   border-radius: 10px;
 }
 
-
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -86,6 +85,8 @@ body {
   padding: 20px;
   text-align: center;
 }
+
+
 
 .image-cover img {
   width: 100%; /* Make the image fill the entire width of its container */
@@ -124,16 +125,32 @@ body {
 
 /* Add additional styles as needed for the second grid items */
 
-.second-grid-container .grid-item.paragraph-item {
-  grid-column: span 5; /* Make the paragraph span five columns */
-  font-size: 36px; /* Example font size, customize as needed */
-  font-weight: bolder;
-  color: #125174; /* Example text color, customize as needed */
-  margin-bottom: 20px;
-  margin-top: 120px;
-  text-align: center
-  /* Additional styling if needed */
+
+.text-content2 {
+  grid-column: 1 / span 5; /* Make the text grid item span columns 4 to 8 */
+  grid-row: span 1; /* You can adjust the number of rows as needed */
+  padding: 20px; /* Add padding for better aesthetics */
+  background-color: #ffffff; /* Example background color, customize as needed */
+  text-align:center;
+  margin: 15%;
 }
+
+.text-content2 h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: #125174;
+  margin-bottom: 20px;
+}
+
+.text-content2 p {
+  font-size: 20px; /* Example font size, customize as needed */
+  color: #333; /* Example text color, customize as needed */
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+
 
 
 .second-grid-container .grid-item.merged-image {
@@ -147,6 +164,11 @@ body {
   border-radius: 10px;
   /* Additional styling if needed */
 }
+
+
+
+
+
 
 /* Small images in the second grid */
 .second-grid-container .small-image {
