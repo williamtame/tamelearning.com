@@ -40,14 +40,6 @@ body {
   text-align: center;
 }
 
-.text-merge {
-  grid-column: span 6;
-  font-size: 36px;
-  font-weight: bolder;
-  text-align: center;
-  color: #125174;
-}
-
 .image-item {
   grid-column: span 2;
 }
@@ -57,6 +49,23 @@ body {
   max-width: 100%; /* Ensure the image doesn't exceed its original size */
   height: auto; /* Maintain the aspect ratio */
   border-radius: 10px;
+}
+
+.williamtamelogo {
+  grid-column: 1 / span 3;
+  text-align: center;
+  width: 20px;
+  height: auto;
+}
+
+.text-merge {
+  grid-column: 5 / span 4; /* Make the text grid item span columns 5 to 8 */
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  color: #125174;
+  line-height: 60px;
+  margin-top: 20px;
 }
 
 .navbar {
