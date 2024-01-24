@@ -4,10 +4,32 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 480px) {
-  /* Styles for screens smaller than 600px (e.g., mobile phones) */
-  /* Adjust your layout and styling here */
+
+
+
+
+/* Default styles for all devices */
+body {
+  font-size: 16px;
 }
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+
+
+
 
 
 body {
