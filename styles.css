@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   /* Styles for screens smaller than 600px (e.g., mobile phones) */
   /* Adjust your layout and styling here */
 }
@@ -12,6 +12,7 @@
 
 body {
   font-family: Arial, sans-serif;
+  font-size: 16px;
   margin: 0;
   padding: 0;
 }
