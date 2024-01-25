@@ -55,11 +55,9 @@ body {
 
 .text-merge {
   grid-column: 5 / span 4; /* Make the text grid item span columns 5 to 8 */
-  font-size: 36px;
   font-weight: bolder;
   text-align: center;
   color: #125174;
-  line-height: 60px;
   margin-top: 20px;
 }
 
@@ -96,17 +94,15 @@ body {
   text-align: center;
 }
 
-
+.image-cover {
+  grid-column: span 3; /* Make the image grid item span three columns */
+  grid-row: span 1; /* Make the image grid item span two rows */
+}
 
 .image-cover img {
   width: 100%; /* Make the image fill the entire width of its container */
   height: auto; /* Maintain the image's aspect ratio */
   border-radius: 8px; /* Optional: Add border-radius for rounded corners */
-}
-
-.image-cover {
-  grid-column: span 3; /* Make the image grid item span three columns */
-  grid-row: span 1; /* Make the image grid item span two rows */
 }
 
 .text-content {
@@ -115,7 +111,6 @@ body {
   padding: 10px; /* Add padding for better aesthetics */
   background-color: #ffffff; /* Example background color, customize as needed */
   text-align:center;
-  margin: 6%;
 }
 
 .text-content h2 {
@@ -142,7 +137,6 @@ body {
   padding: 10px; /* Add padding for better aesthetics */
   background-color: #ffffff; /* Example background color, customize as needed */
   text-align:center;
-  margin: 6%;
 }
 
 .text-content2 h2 {
