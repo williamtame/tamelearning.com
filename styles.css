@@ -47,14 +47,14 @@ body {
 }
 
 .williamtamelogo {
-  grid-column: 1 / span 3;
+  grid-column: 3 / span 3;
   text-align: center;
-  width: 20px;
+  width: 30px;
   height: auto;
 }
 
 .text-merge {
-  grid-column: 5 / span 4; /* Make the text grid item span columns 5 to 8 */
+  grid-column: 6 / span 3; /* Make the text grid item span columns 5 to 8 */
   font-weight: bolder;
   text-align: center;
   color: #125174;
@@ -77,7 +77,7 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #555;
+  background-color: #4ba0c7;
 }
 
 /* Add this CSS for the second grid-container with eight columns */
