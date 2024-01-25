@@ -192,7 +192,7 @@ body {
   /* Add any additional styling for the hover effect */
 }
 
-/* Image spanning grid items 33 to 40 */
+/* Image spanning grid items 66 to 73 */
 .second-grid-container .spanned-image {
   grid-column: span 8; /* Span across 8 columns */
 }
