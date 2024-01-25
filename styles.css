@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   margin: 0;
   padding: 0;
 }
@@ -18,7 +18,7 @@ body {
 }
 
 .page-heading {
-  margin-top: 6px;
+  margin-top: 20px;
   text-align: center;
   color: #ffffff;
 }
@@ -33,49 +33,44 @@ body {
   background-color: #ffffff;
   padding: 10px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .image-item1 {
-  grid-column: span 3;
+  grid-column: 3 / span 4;
+  text-align: center;
 }
 
 .grid-item2 {
   background-color: #ffffff;
   padding: 10px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .image-item2 {
-  grid-column: span 3;
+  grid-column: 7 / span 2;
+  text-align: center;
 }
 
 .image-item1 img {
-  width: 100%; /* Set the image width to 100% of its container */
+  width: 80%; /* Set the image width to 100% of its container */
   max-width: 100%; /* Ensure the image doesn't exceed its original size */
   height: auto; /* Maintain the aspect ratio */
-  border-radius: 10px;
 }
 
 .image-item2 img {
-  width: 100%; /* Set the image width to 100% of its container */
+  width: 50%; /* Set the image width to 100% of its container */
   max-width: 100%; /* Ensure the image doesn't exceed its original size */
   height: auto; /* Maintain the aspect ratio */
-  border-radius: 10px;
 }
 
-.williamtamelogo {
-  grid-column: 3 / span 3;
-  text-align: center;
-  width: 30px;
-  height: auto;
-}
 
 .text-mergetitle {
-  grid-column: 6 / span 3; /* Make the text grid item span columns 5 to 8 */
+  grid-column: 1 / span 8; /* Make the text grid item span columns 5 to 8 */
   font-weight: bolder;
   text-align: center;
   color: #125174;
-  margin-top: 20px;
 }
 
 .navbar {
