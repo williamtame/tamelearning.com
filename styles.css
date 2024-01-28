@@ -71,6 +71,8 @@ body {
   font-weight: bolder;
   text-align: center;
   color: #125174;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .navbar {
