@@ -100,6 +100,8 @@ body {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   gap: 10px;
+  width: 100%;
+  height: auto;
 }
 
 /* Apply styles to the grid items within the second grid-container */
@@ -107,11 +109,15 @@ body {
   background-color: #ffffff;
   padding: 20px;
   text-align: center;
+  width: 100%;
+  height: auto;
 }
 
 .image-cover {
   grid-column: span 3; /* Make the image grid item span three columns */
   grid-row: span 1; /* Make the image grid item span two rows */
+  width: 100%;
+  height: auto;
 }
 
 .image-cover img {
@@ -175,6 +181,8 @@ body {
 .second-grid-container .grid-item.merged-image {
   grid-column: span 3; /* Make the merged item span three columns */
   /* Additional styling if needed */
+  width: 100%;
+  height: auto;
 }
 
 .second-grid-container .grid-item.merged-image img {
@@ -185,13 +193,10 @@ body {
 }
 
 
-
-
-
-
 /* Small images in the second grid */
 .second-grid-container .small-image {
   width: 100%;
+  height: auto;
   margin: 10px 0; /* Adjust the margin as needed */
 }
 
@@ -210,6 +215,8 @@ body {
 /* Image spanning grid items 66 to 73 */
 .second-grid-container .spanned-image {
   grid-column: span 8; /* Span across 8 columns */
+  max-width: 100%;
+  height: auto;
 }
 
 .second-grid-container .spanned-image img {
@@ -273,8 +280,6 @@ body {
     }
   }
   
-
-
   .second-grid-container, .third-grid-container {
     grid-template-columns: repeat(1, 1fr);
   }
