@@ -101,7 +101,6 @@ body {
   grid-template-columns: repeat(8, 1fr);
   gap: 10px;
   width: 100%;
-  height: auto;
 }
 
 /* Apply styles to the grid items within the second grid-container */
@@ -110,6 +109,8 @@ body {
   padding: 20px;
   text-align: center;
   width: 100%;
+  max-width: 100%; /* Add max-width to prevent content overflow */
+  box-sizing: border-box; /* Ensure padding is included in the width */
   height: auto;
 }
 
