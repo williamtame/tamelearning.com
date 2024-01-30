@@ -301,38 +301,56 @@ body {
 
   .image-item1 img {
     width: 100%;
+    max-width: 100%; /* Add max-width to prevent content overflow */
+    box-sizing: border-box; /* Ensure padding is included in the width */
   }
 
   .image-item2 img {
     width: 100%;
+    max-width: 100%; /* Add max-width to prevent content overflow */
+    box-sizing: border-box; /* Ensure padding is included in the width */
   }
 
   .image-cover img {
     width: 100%;
+    max-width: 100%; /* Add max-width to prevent content overflow */
+    box-sizing: border-box; /* Ensure padding is included in the width */
   }
 
   .merged-image img {
     width: 100%;
+    max-width: 100%; /* Add max-width to prevent content overflow */
+    box-sizing: border-box; /* Ensure padding is included in the width */
   }
 
   .spanned-image img {
     width: 100%;
+    max-width: 100%; /* Add max-width to prevent content overflow */
+    box-sizing: border-box; /* Ensure padding is included in the width */
   }
 
   .small-image img {
     width: 100%;
+    max-width: 100%; /* Add max-width to prevent content overflow */
+    box-sizing: border-box; /* Ensure padding is included in the width */
   }
 
   .bottomnavbar, .navbar {
     flex-direction: column;
     align-items: center;
+    max-width: 100%; /* Add max-width to prevent content overflow */
+    box-sizing: border-box; /* Ensure padding is included in the width */
   }
 
   .bottomnavbar a, .navbar a {
     margin-bottom: 10px;
+    max-width: 100%; /* Add max-width to prevent content overflow */
+    box-sizing: border-box; /* Ensure padding is included in the width */
   }
 
   .organisation {
     margin-top: 20px;
+    max-width: 100%; /* Add max-width to prevent content overflow */
+    box-sizing: border-box; /* Ensure padding is included in the width */
   }
 }
