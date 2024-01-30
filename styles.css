@@ -354,3 +354,23 @@ body {
     box-sizing: border-box; /* Ensure padding is included in the width */
   }
 }
+
+
+/* Apply max-width and box-sizing to specific elements */
+.image-cover img,
+.merged-image img,
+.spanned-image img,
+.small-image img {
+  max-width: 100%;
+}
+
+/* Apply box-sizing to specific grid items */
+.text-content,
+.text-content2,
+.grid-item,
+.second-grid-container {
+  box-sizing: border-box;
+}
+
+/* Additional styling for specific elements as needed */
+
