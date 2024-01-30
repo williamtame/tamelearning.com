@@ -170,6 +170,13 @@ body {
   text-align: left;
 }
 
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .text-content p {
+    font-size: 12px; /* Adjust the font size for smaller screens */
+  }
+}
+
 /* Add additional styles as needed for the second grid items */
 
 
@@ -196,7 +203,12 @@ body {
   text-align: left;
 }
 
-
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .text-content2 p {
+    font-size: 12px; /* Adjust the font size for smaller screens */
+  }
+}
 
 
 .second-grid-container .grid-item.merged-image {
