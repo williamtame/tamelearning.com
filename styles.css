@@ -293,9 +293,11 @@ body {
   background-color: #ffffff;
   padding: 10px;
   text-align: center;
+  color: #ffffff;
 }
 
 .organisation{
   text-align: center;
   color: black;
+  margin-top: 10px;
 }
