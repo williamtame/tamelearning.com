@@ -23,18 +23,19 @@ body {
   max-width: 90%;
   margin: 0 auto;
   margin-bottom: 50px;
-}
-
-.page-heading {
-  margin-top: 20px;
-  text-align: center;
-  color: #ffffff;
+  justify-content: center; /* Ensure the grid content is centered horizontally */
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(8, minmax(0, 1fr)); /* Change to eight columns */
   gap: 10px;
+}
+
+.page-heading {
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .grid-item1 {
@@ -112,7 +113,7 @@ body {
 /* Apply styles to the grid items within the second grid-container */
 .second-grid-container .grid-item {
   background-color: #ffffff;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -256,7 +257,7 @@ body {
 /* Apply styles to the grid items within the second grid-container */
 .third-grid-container .grid-item {
   background-color: #ffffff;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
 }
 
