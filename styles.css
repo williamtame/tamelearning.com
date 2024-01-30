@@ -28,6 +28,8 @@ body {
   display: grid;
   grid-template-columns: repeat(8, 1fr); /* Change to eight columns */
   gap: 10px;
+  max-width: 100%; /* Add max-width to prevent content overflow */
+  box-sizing: border-box; /* Ensure padding is included in the width */
 }
 
 .grid-item1 {
@@ -101,6 +103,8 @@ body {
   grid-template-columns: repeat(8, 1fr);
   gap: 10px;
   width: 100%;
+  max-width: 100%; /* Add max-width to prevent content overflow */
+  box-sizing: border-box; /* Ensure padding is included in the width */
 }
 
 /* Apply styles to the grid items within the second grid-container */
