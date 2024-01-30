@@ -23,6 +23,7 @@ body {
   color: #ffffff;
 }
 
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(8, 1fr); /* Change to eight columns */
@@ -255,4 +256,55 @@ body {
 .organisation{
   text-align: center;
   color: black;
+}
+
+
+/* Existing styles remain unchanged */
+
+/* Add media query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .second-grid-container, .third-grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .image-item1 img {
+    width: 100%;
+  }
+
+  .image-item2 img {
+    width: 100%;
+  }
+
+  .image-cover img {
+    width: 100%;
+  }
+
+  .merged-image img {
+    width: 100%;
+  }
+
+  .spanned-image img {
+    width: 100%;
+  }
+
+  .small-image img {
+    width: 100%;
+  }
+
+  .bottomnavbar, .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bottomnavbar a, .navbar a {
+    margin-bottom: 10px;
+  }
+
+  .organisation {
+    margin-top: 20px;
+  }
 }
