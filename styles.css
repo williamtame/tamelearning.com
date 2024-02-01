@@ -76,19 +76,6 @@ body {
 }
 
 
-.ealpencil {
-  grid-column: 3 / span 4;
-  text-align: center;
-}
-
-.ealpencil img {
-  width: 60%;
-  max-width: 100%;
-  height: auto;
-}
-
-
-
 .text-mergetitle {
   grid-column: 1 / span 8; /* Make the text grid item span columns 5 to 8 */
   font-weight: bolder;
