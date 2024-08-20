@@ -144,7 +144,7 @@ body {
 }
 
 .image-cover img {
-  width: 100%; /* Make the image fill the entire width of its container */
+  width: 60%; /* Make the image fill the entire width of its container */
   height: auto; /* Maintain the image's aspect ratio */
   border-radius: 8px; /* Optional: Add border-radius for rounded corners */
 }
@@ -219,7 +219,7 @@ body {
 }
 
 .second-grid-container .grid-item.merged-image img {
-  width: 100%; /* Make the image fill its container */
+  width: 60%; /* Make the image fill its container */
   height: auto; /* Maintain aspect ratio */
   border-radius: 10px;
   /* Additional styling if needed */
