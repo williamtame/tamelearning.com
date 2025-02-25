@@ -1,0 +1,613 @@
+<<<<<<< Updated upstream
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+}
+
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  justify-content: center; /* Ensure the grid content is centered horizontally */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr)); /* Change to eight columns */
+  gap: 10px;
+  background-color: #ffffff;
+}
+
+.page-heading {
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.grid-item1 {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+.image-item1 {
+  grid-column: 3 / span 4;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+.grid-item2 {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.image-item2 {
+  grid-column: 7 / span 2;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+.image-item1 img {
+  width: 80%; /* Set the image width to 100% of its container */
+  max-width: 100%; /* Ensure the image doesn't exceed its original size */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.image-item2 img {
+  width: 50%; /* Set the image width to 100% of its container */
+  max-width: 100%; /* Ensure the image doesn't exceed its original size */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+
+.text-mergetitle {
+  grid-column: 1 / span 8; /* Make the text grid item span columns 5 to 8 */
+  font-weight: bolder;
+  text-align: center;
+  color: #125174;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .navbar, .bottomnavbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar a, .bottomnavbar a {
+    flex: none;
+    width: 100%;
+  }
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar a {
+  flex: 1;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #4ba0c7;
+}
+
+/* Add this CSS for the second grid-container with eight columns */
+.second-grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 10px;
+}
+
+/* Apply styles to the grid items within the second grid-container */
+.second-grid-container .grid-item {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.image-cover {
+  grid-column: span 3; /* Make the image grid item span three columns */
+  grid-row: span 1; /* Make the image grid item span two rows */
+}
+
+.image-cover img {
+  width: 60%; /* Make the image fill the entire width of its container */
+  height: auto; /* Maintain the image's aspect ratio */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+.text-content {
+  grid-column: 4 / span 5; /* Make the text grid item span columns 4 to 8 */
+  grid-row: span 1; /* You can adjust the number of rows as needed */
+  padding: 10px; /* Add padding for better aesthetics */
+  background-color: #ffffff; /* Example background color, customize as needed */
+  text-align:center;
+}
+
+.text-content h2 {
+  font-size: 32px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: #125174;
+  margin-bottom: 15px;
+}
+
+.text-content p {
+  font-size: 16px; /* Example font size, customize as needed */
+  color: #333; /* Example text color, customize as needed */
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .text-content p {
+    font-size: 12px; /* Adjust the font size for smaller screens */
+  }
+}
+
+/* Add additional styles as needed for the second grid items */
+
+
+.text-content2 {
+  grid-column: 1 / span 5; /* Make the text grid item span columns 4 to 8 */
+  grid-row: span 1; /* You can adjust the number of rows as needed */
+  padding: 10px; /* Add padding for better aesthetics */
+  background-color: #ffffff; /* Example background color, customize as needed */
+  text-align:center;
+}
+
+.text-content2 h2 {
+  font-size: 32px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: #125174;
+  margin-bottom: 20px;
+}
+
+.text-content2 p {
+  font-size: 16px; /* Example font size, customize as needed */
+  color: #333; /* Example text color, customize as needed */
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .text-content2 p {
+    font-size: 12px; /* Adjust the font size for smaller screens */
+  }
+}
+
+
+.second-grid-container .grid-item.merged-image {
+  grid-column: span 3; /* Make the merged item span three columns */
+  /* Additional styling if needed */
+}
+
+.second-grid-container .grid-item.merged-image img {
+  width: 60%; /* Make the image fill its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  /* Additional styling if needed */
+}
+
+
+
+
+
+
+/* Small images in the second grid */
+.second-grid-container .small-image {
+  width: 100%;
+  margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.second-grid-container .small-image img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.second-grid-container .small-image img:hover {
+  transform: scale(1.2);
+  border-radius: 10px;
+  /* Add any additional styling for the hover effect */
+}
+
+/* Image spanning grid items 66 to 73 */
+.second-grid-container .spanned-image {
+  grid-column: span 8; /* Span across 8 columns */
+}
+
+.second-grid-container .spanned-image img {
+  width: 100%;
+  height: auto;
+  /* Add any additional styling as needed */
+}
+
+
+.bottomnavbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #333;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.bottomnavbar a {
+  flex: 1;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.bottomnavbar a:hover {
+  background-color: #555;
+}
+
+/* Add this CSS for the second grid-container with eight columns */
+.third-grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 20px;
+}
+
+/* Apply styles to the grid items within the second grid-container */
+.third-grid-container .grid-item {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.organisation{
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+}
+=======
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+}
+
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  justify-content: center; /* Ensure the grid content is centered horizontally */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr)); /* Change to eight columns */
+  gap: 10px;
+  background-color: #ffffff;
+}
+
+.page-heading {
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.grid-item1 {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+.image-item1 {
+  grid-column: 3 / span 4;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+.grid-item2 {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.image-item2 {
+  grid-column: 7 / span 2;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+.image-item1 img {
+  width: 80%; /* Set the image width to 100% of its container */
+  max-width: 100%; /* Ensure the image doesn't exceed its original size */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.image-item2 img {
+  width: 50%; /* Set the image width to 100% of its container */
+  max-width: 100%; /* Ensure the image doesn't exceed its original size */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+
+.text-mergetitle {
+  grid-column: 1 / span 8; /* Make the text grid item span columns 5 to 8 */
+  font-weight: bolder;
+  text-align: center;
+  color: #125174;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .navbar, .bottomnavbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar a, .bottomnavbar a {
+    flex: none;
+    width: 100%;
+  }
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar a {
+  flex: 1;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #4ba0c7;
+}
+
+/* Add this CSS for the second grid-container with eight columns */
+.second-grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 10px;
+}
+
+/* Apply styles to the grid items within the second grid-container */
+.second-grid-container .grid-item {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.image-cover {
+  grid-column: span 3; /* Make the image grid item span three columns */
+  grid-row: span 1; /* Make the image grid item span two rows */
+}
+
+.image-cover img {
+  width: 60%; /* Make the image fill the entire width of its container */
+  height: auto; /* Maintain the image's aspect ratio */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+.text-content {
+  grid-column: 4 / span 5; /* Make the text grid item span columns 4 to 8 */
+  grid-row: span 1; /* You can adjust the number of rows as needed */
+  padding: 10px; /* Add padding for better aesthetics */
+  background-color: #ffffff; /* Example background color, customize as needed */
+  text-align:center;
+}
+
+.text-content h2 {
+  font-size: 32px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: #125174;
+  margin-bottom: 15px;
+}
+
+.text-content p {
+  font-size: 16px; /* Example font size, customize as needed */
+  color: #333; /* Example text color, customize as needed */
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .text-content p {
+    font-size: 12px; /* Adjust the font size for smaller screens */
+  }
+}
+
+/* Add additional styles as needed for the second grid items */
+
+
+.text-content2 {
+  grid-column: 1 / span 5; /* Make the text grid item span columns 4 to 8 */
+  grid-row: span 1; /* You can adjust the number of rows as needed */
+  padding: 10px; /* Add padding for better aesthetics */
+  background-color: #ffffff; /* Example background color, customize as needed */
+  text-align:center;
+}
+
+.text-content2 h2 {
+  font-size: 32px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: #125174;
+  margin-bottom: 20px;
+}
+
+.text-content2 p {
+  font-size: 16px; /* Example font size, customize as needed */
+  color: #333; /* Example text color, customize as needed */
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .text-content2 p {
+    font-size: 12px; /* Adjust the font size for smaller screens */
+  }
+}
+
+
+.second-grid-container .grid-item.merged-image {
+  grid-column: span 3; /* Make the merged item span three columns */
+  /* Additional styling if needed */
+}
+
+.second-grid-container .grid-item.merged-image img {
+  width: 60%; /* Make the image fill its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  /* Additional styling if needed */
+}
+
+
+
+
+
+
+/* Small images in the second grid */
+.second-grid-container .small-image {
+  width: 100%;
+  margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.second-grid-container .small-image img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.second-grid-container .small-image img:hover {
+  transform: scale(1.2);
+  border-radius: 10px;
+  /* Add any additional styling for the hover effect */
+}
+
+/* Image spanning grid items 66 to 73 */
+.second-grid-container .spanned-image {
+  grid-column: span 8; /* Span across 8 columns */
+}
+
+.second-grid-container .spanned-image img {
+  width: 100%;
+  height: auto;
+  /* Add any additional styling as needed */
+}
+
+
+.bottomnavbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #333;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.bottomnavbar a {
+  flex: 1;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.bottomnavbar a:hover {
+  background-color: #555;
+}
+
+/* Add this CSS for the second grid-container with eight columns */
+.third-grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 20px;
+}
+
+/* Apply styles to the grid items within the second grid-container */
+.third-grid-container .grid-item {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.organisation{
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+}
+>>>>>>> Stashed changes
